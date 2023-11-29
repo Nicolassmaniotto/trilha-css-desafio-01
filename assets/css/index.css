@@ -1,0 +1,17 @@
+.banner{
+    margin: 0px;
+    background: no-repeat center/100% url("../images/banner.png"), linear-gradient(to top,hsla(0, 0%, 0%, 0.6),hsla(198, 72%, 53%, 0.164),hsla(198, 72%, 53%, 0.226),#00000099);
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+}    
+.banner-content{
+    margin: auto;
+    width: 40%;
+    align-self: center;
+    
+}
+.logo img{
+    min-width: 20%;
+    max-width: 40%;
+}

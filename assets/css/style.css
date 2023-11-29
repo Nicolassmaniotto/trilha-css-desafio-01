@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    margin: 0%;
+}
+h1{
+    text-transform: uppercase;
+    color: rgb(0, 0, 255);
+}
