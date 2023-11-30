@@ -30,3 +30,33 @@ body{
 #course-content span{
     color: var(--azul-dio);
 }
+
+header,main,section,footer{
+    border-bottom:1px solid var(--azul-dio);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0%;
+}
+#transform-world{
+    background: url(../images/woman-code.png);
+    height: 560px;
+    background-size:cover;
+    vertical-align: middle;
+    padding: 300px;
+}
+#transform-world p{
+    margin: auto;
+    padding: auto;
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    max-width: 250px;
+}
+footer{
+    padding-top: 2rem;
+    background:linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+}
+footer a{
+    text-decoration: none;
+    color: var(--azul-dio);
+}

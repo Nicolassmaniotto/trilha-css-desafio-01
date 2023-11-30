@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background: linear-gradient(to top,hsl(0, 0%, 0%),hsl(0, 0%, 0%),hsl(196, 90%, 4%),hsl(0, 0%, 0%));
     color: white;
     align-items: center;
     text-align: center;
@@ -15,6 +15,7 @@ h1,h2{
     text-transform: uppercase;
     color: var(--azul-dio);
     font-size: size 2.5em;
+    margin-bottom: 0px;
 }
 img{
     max-width: 100%;
