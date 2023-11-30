@@ -5,8 +5,23 @@ body{
     text-align: center;
     display: grid;
     margin: 0%;
+    width: 100vw;
 }
-h1{
+body{
+    --azul-dio:hsl(198, 70%, 53%);
+    --gray-dio: rgba(29, 28, 28, 0.815);
+}
+h1,h2{
     text-transform: uppercase;
-    color: rgb(0, 0, 255);
+    color: var(--azul-dio);
+    font-size: size 2.5em;
+}
+img{
+    max-width: 100%;
+}
+button{
+    color: var(--azul-dio);
+    border-color: var(--azul-dio);
+    border-radius: 0.5em;
+    background-color: rgba(0, 0, 0, 0);
 }

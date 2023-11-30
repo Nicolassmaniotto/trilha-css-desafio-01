@@ -15,3 +15,18 @@
     min-width: 20%;
     max-width: 40%;
 }
+body{
+    font-size: 1em;
+}
+#course-content .modules-list .module {
+    color: white;
+    width: 60%;
+    margin: 0 auto 1em;
+    border: 1px solid var(--azul-dio);
+    background-color: var(--gray-dio);
+    padding: 1em;
+    border-radius: 100px;
+}
+#course-content span{
+    color: var(--azul-dio);
+}
